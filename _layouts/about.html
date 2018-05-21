@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% include wrap.html %}
+<div class="container mtb">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-responsive" width="400" src="{{ page.image | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="col-md-8">
+          {{ content }}
+          <h2>
+            {% for network in page.social %}
+              <a href="{{ network.link }}" class="btn-social btn-outline">
+                <i class="fab fa-{{network.name}}" aria-hidden="true"></i>
+                <span class="sr-only">{{network.name}}</span>
+              </a>
+            {% endfor %}
+          </h2>
+        </div>
+    </div>
+</div>

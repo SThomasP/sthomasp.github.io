@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+
+        <div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+
+            {{ content }}
+
+        </div>
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="spacing"></div>
+            <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img }}" alt="">
+            {% if page.tagged %}<p><b>Tagged:</b> {% for tag in page.tagged %} <span class="badge badge-theme">{{tag}}</span>{% endfor %}</p>{% endif %}
+            {% if page.links %}<p>{% for link in page.links %}<a href="{{ link.site }}" class="btn btn-theme">{{ link.name }}</a>{% endfor %}</p>{% endif %}
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
+
+{% include portfolio.html title="Other Works." limit=5 %}
