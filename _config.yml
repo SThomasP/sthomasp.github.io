@@ -35,3 +35,5 @@ collections:
     permalink: /questions/:title/
 
 
+
+theme: jekyll-theme-tactile
