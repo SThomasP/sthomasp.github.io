@@ -33,7 +33,3 @@ collections:
   questions:
     output: true
     permalink: /questions/:title/
-
-
-
-theme: jekyll-theme-tactile
