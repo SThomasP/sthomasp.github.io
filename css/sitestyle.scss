@@ -265,7 +265,7 @@ a:focus {
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
-	text-align: center
+	text-align: center;
 }
 
 #portfoliowrap h3 {
@@ -274,10 +274,19 @@ a:focus {
 
 .portfolio {
 	padding:0 !important;
-	margin:0 !important;
+	margin: auto;
+	width: 97%;
 	display:block;
 }
 
+.portfolio-item{
+	margin: 0.5%;
+}
+
+.portfolio-item img{
+	height: 170px;
+	width: auto;
+}
 
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
@@ -365,30 +374,6 @@ a:focus {
 	margin-bottom: 60px;
 }
 
-/* Footer */
-#footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background: {{site.colors.secondary}};
-}
-
-#footerwrap p {
-	color: {{ site.colors.footer_content }};
-}
-
-#footerwrap h4 {
-	color: {{ site.colors.footer_heading }};
-}
-
-#footerwrap i {
-	font-size: 30px;
-	color: {{ site.colors.footer_content }};
-	padding-right: 25px;
-}
-
-#footerwrap i:hover {
-	color: {{site.colors.primary}}
-}
 
 /*	################################################################
 	PAGE CONFIGURATIONS
