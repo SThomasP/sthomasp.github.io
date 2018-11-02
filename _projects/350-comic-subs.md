@@ -4,6 +4,7 @@ title:  "Comic Subs"
 tagged:
 - Python
 - Flask
+- Google App Engine
 img: "Comic-Subs.png"
 links:
 - name: "View Site"
