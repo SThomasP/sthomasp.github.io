@@ -9,7 +9,8 @@ categories:
 ---
 I’m currently searching for a post graduation job, which means cover letter and job advert after cover letter and job advert. On that topic, if you’ve got offices in Berlin and looking for a junior software developer to start at some point in the new year, check out [the about page](/about).
 <!--more-->
-So, to make the job application process as painless as possible. I’ve started using trello, I'm subscribed to a few email alerts, RSS feeds and other methods of finding job adverts. What I then do is aggregate these job listing into a trello board. This board is sorted into six columns:
+
+To make the job application process as painless as possible. I’ve started using trello, I'm subscribed to a few email alerts, RSS feeds and other methods of finding job adverts. What I then do is aggregate these job listing into a trello board. This board is sorted into six columns:
 
 1. To Apply
 2. Applying
